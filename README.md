@@ -1,77 +1,28 @@
-# template
+# arachnoid-cyst
 
 
-**template for pathology atlas repositories**
-
-
-{{< include ./_subchapters/_template.qmd >}}
-
-
-```
-see [make-html-WSI](https://github.com/pathologyatlas/make-html-WSI) for more information and [TODO](https://github.com/pathologyatlas/TODO) to add cases
-```
-
-```
-update html file heading:
-
-<title>TemplateEN TemplateTR</title>
-
-<meta name="keywords" content="TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image">
-
-<meta name="description" content="TemplateEN TemplateTR">
-
-```
+**arachnoid-cyst for pathology atlas repositories**
 
 
 
-```zsh
+[https://images.patolojiatlasi.com/arachnoid-cyst/](https://images.patolojiatlasi.com/arachnoid-cyst/)
 
-vips dzsave HE.svs HE
-
-```
+[https://images.patolojiatlasi.com/arachnoid-cyst/HE.html](https://images.patolojiatlasi.com/arachnoid-cyst/HE.html)
 
 
-```
-update html file to match .dzi file
+**araknoid kist**
 
-```
+[Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/arachnoid-cyst/HE.html)
 
-
-> consider using git_push.sh script to upload files to github, since the number of generated files is huge
-
-> after upload complete, do not forget to activate github pages for the new repository
+<a href="https://images.patolojiatlasi.com/arachnoid-cyst/HE.html"><img alt="Tam Ekran Görmek İçin Resmi Tıklayın" src ="https://www.patolojiatlasi.com/screenshots/thumbnail_arachnoid-cyst-HE.png" style="width:25%;"></a>
 
 
 
+**arachnoid cyst**
 
+[Click for Full Screen WSI](https://images.patolojiatlasi.com/arachnoid-cyst/HE.html)
 
-<title>TemplateEN TemplateTR</title>
-<meta name="keywords" content="TemplateEN, TemplateTR, patoloji, atlas, pathology, whole slide image">
-<meta name="description" content="TemplateEN TemplateTR">
-
-
-
-
-
-
-[https://images.patolojiatlasi.com/template/](https://images.patolojiatlasi.com/template/)
-
-[https://images.patolojiatlasi.com/template/HE1.html](https://images.patolojiatlasi.com/template/HE1.html)
-
-
-**TemplateTR**
-
-[Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/template/HE1.html)
-
-<a href="https://images.patolojiatlasi.com/template/HE1.html"><img alt="Tam Ekran Görmek İçin Resmi Tıklayın" src ="https://www.patolojiatlasi.com/screenshots/thumbnail_template-HE1.png" style="width:25%;"></a>
-
-
-
-**TemplateEN**
-
-[Click for Full Screen WSI](https://images.patolojiatlasi.com/template/HE1.html)
-
-<a href="https://images.patolojiatlasi.com/template/HE1.html"><img alt="Click for Full Screen WSI" src ="https://www.patolojiatlasi.com/screenshots/thumbnail_template-HE1.png" style="width:25%;"></a>
+<a href="https://images.patolojiatlasi.com/arachnoid-cyst/HE.html"><img alt="Click for Full Screen WSI" src ="https://www.patolojiatlasi.com/screenshots/thumbnail_arachnoid-cyst-HE.png" style="width:25%;"></a>
 
 
 
@@ -81,131 +32,52 @@ update html file to match .dzi file
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/template/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/arachnoid-cyst/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 
 See Microscopy with viewer:
 
-<iframe src="https://images.patolojiatlasi.com/template/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
-
-
-
-
-
-[https://images.patolojiatlasi.com/template/](https://images.patolojiatlasi.com/template/)
-
-[https://images.patolojiatlasi.com/template/HE2.html](https://images.patolojiatlasi.com/template/HE2.html)
-
-
-**TemplateTR**
-
-[Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/template/HE2.html)
-
-<a href="https://images.patolojiatlasi.com/template/HE2.html"><img alt="Tam Ekran Görmek İçin Resmi Tıklayın" src ="https://www.patolojiatlasi.com/screenshots/thumbnail_template-HE2.png" style="width:25%;"></a>
-
-
-
-**TemplateEN**
-
-[Click for Full Screen WSI](https://images.patolojiatlasi.com/template/HE2.html)
-
-<a href="https://images.patolojiatlasi.com/template/HE2.html"><img alt="Click for Full Screen WSI" src ="https://www.patolojiatlasi.com/screenshots/thumbnail_template-HE2.png" style="width:25%;"></a>
-
-
-
-
-
-
-
-Mikroskopik görüntüleri inceleyin:
-
-<iframe src="https://images.patolojiatlasi.com/template/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
-
-
-See Microscopy with viewer:
-
-<iframe src="https://images.patolojiatlasi.com/template/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/arachnoid-cyst/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 
 
 
 
 ```yaml
-- stainname: template-HE1
-  reponame: template
-  titleTR: TemplateTR
-  titleEN: TemplateEN
-  organTR: ''
-  organEN: ''
-  speciality: ''
+- stainname: arachnoid-cyst-HE
+  reponame: arachnoid-cyst
+  titleTR: araknoid kist
+  titleEN: arachnoid cyst
+  organTR: meninks
+  organEN: meninges
+  speciality: neuropathology
   type: published
   author:
   - Serdar Balci
   - Memorial Patoloji
-  date: 2024-03-09
-  url: https://images.patolojiatlasi.com/template/HE1.html
+  date: 2024-03-13
+  url: https://images.patolojiatlasi.com/arachnoid-cyst/HE.html
   note: ''
   categoriesTR:
-  - ''
-  - ''
-  - ''
+  - araknoid kist
+  - meninks
+  - nöropatoloji
   - patoloji
   - atlas
   - histopatoloji
   - whole slide image
   categoriesEN:
-  - ''
-  - ''
-  - ''
+  - arachnoid cyst
+  - meninges
+  - neuropathology
   - pathology
   - atlas
   - histopathology
   - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_template-HE1.png
-  github: https:///github.com/pathologyatlas/template
-  githubpage: https://pathologyatlas.github.io/template
-  youtube: https://www.youtube.com/watch?v=youtube_link
-```
-
-
-
-```yaml
-- stainname: template-HE2
-  reponame: template
-  titleTR: TemplateTR
-  titleEN: TemplateEN
-  organTR: ''
-  organEN: ''
-  speciality: ''
-  type: published
-  author:
-  - Serdar Balci
-  - Memorial Patoloji
-  date: 2024-03-09
-  url: https://images.patolojiatlasi.com/template/HE2.html
-  note: ''
-  categoriesTR:
-  - ''
-  - ''
-  - ''
-  - patoloji
-  - atlas
-  - histopatoloji
-  - whole slide image
-  categoriesEN:
-  - ''
-  - ''
-  - ''
-  - pathology
-  - atlas
-  - histopathology
-  - whole slide image
-  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_template-HE2.png
-  github: https:///github.com/pathologyatlas/template
-  githubpage: https://pathologyatlas.github.io/template
-  youtube: https://www.youtube.com/watch?v=youtube_link
+  screenshot: https://www.patolojiatlasi.com/screenshots/thumbnail_arachnoid-cyst-HE.png
+  github: https:///github.com/pathologyatlas/arachnoid-cyst
+  githubpage: https://pathologyatlas.github.io/arachnoid-cyst
+  youtube: ''
 ```
 
 
@@ -251,5 +123,8 @@ See Microscopy with viewer:
 | [![](https://img.shields.io/github/license/patolojiatlasi/patolojiatlasi.github.io)](https://github.com/patolojiatlasi/patolojiatlasi.github.io/blob/main/LICENSE)                                                                                                                                       |
 | <a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fwww.patolojiatlasi.com%2F%20@patolojinotlari%20@serdarbalci%20"><img src="https://img.shields.io/twitter/url?label=Patoloji%20Atlas%C4%B1&amp;style=social&amp;url=https%3A%2F%2Fwww.patolojiatlasi.com%2F" alt="Twitter"/></a>    |
 | <a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fwww.patolojinotlari.com%2F%20@patolojinotlari%20@serdarbalci%20"><img src="https://img.shields.io/twitter/url?label=Patoloji%20Notlar%C4%B1&amp;style=social&amp;url=https%3A%2F%2Fwww.patolojinotlari.com%2F" alt="Twitter"/></a> |
+
+
+
 
 
